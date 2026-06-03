@@ -5,7 +5,7 @@ let package = Package(
     name: "ChatLms",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "ChatLms", targets: ["ChatLms"])
+        .library(name: "ChatLms", targets: ["ChatSdk"])
     ],
     targets: [
         .binaryTarget(
