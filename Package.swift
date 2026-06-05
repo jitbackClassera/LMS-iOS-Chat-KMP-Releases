@@ -5,13 +5,13 @@ let package = Package(
     name: "ChatLms",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "ChatLms", targets: ["ChatSdk"])
+        .library(name: "ChatLms", targets: ["ChatLms"])
     ],
     targets: [
         .binaryTarget(
-            name: "ChatSdk",
-            url: "https://github.com/jitbackClassera/LMS-iOS-Chat-KMP-Releases/releases/download/1.0.1/ChatSdk.xcframework.zip",
-            checksum: "74ac00dc97fddcdbe0d7bdc2b198e45a2c6e251fc6751cc2dc515b5b36162704"
+            name: "ChatLms",
+            url: "https://github.com/jitbackClassera/LMS-iOS-Chat-KMP-Releases/releases/download/1.0.2/ChatLms.xcframework.zip",
+            checksum: "6809f6428294b4cb12d45d6694369fc1b5fdd5f6387eca5c962fde00901490b1"
         )
     ]
 )
