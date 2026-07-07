@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ChatLms",
-            url: "https://github.com/jitbackClassera/LMS-iOS-Chat-KMP-Releases/releases/download/1.0.6/ChatLms.xcframework.zip",
-            checksum: "74050a5bd4344da2fbe8a713903dc711ea3cf7d1c860b596985ec5b8cc9530c1"
+            url: "https://github.com/jitbackClassera/LMS-iOS-Chat-KMP-Releases/releases/download/1.0.7/ChatLms.xcframework.zip",
+            checksum: "875cc7386f8bc68cda4754fce920e8c60cde2a23f9798f858478accc7c7c17fb"
         )
     ]
 )
